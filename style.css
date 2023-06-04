@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 1.5em;
+    padding: .5em 0;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: black;
+    font-style:oblique;
+}
+
+#container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#image-container{
+    width: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px orangered;
+    border-radius: .1rem;
+}
+
+#move{
+    display: flex;
+    transform: translateX(0px);
+    transition: transform 0.3sec linear;
+}
+
+img{
+   width: 90%;
+    object-fit: cover;
+}
